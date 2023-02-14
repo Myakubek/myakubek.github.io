@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Matthew Yakubek"
+  name   : ""
   avatar : "/assets/images/Matthew Yakubek - Picture.png"
   bio    : ""
   links:
