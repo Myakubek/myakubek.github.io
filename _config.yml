@@ -108,7 +108,7 @@ defaults:
       share: false
 
 collections:
-  portfolio:
+  NLP:
     output: true
     permalink: /:collection/:path/
 
