@@ -1,8 +1,8 @@
 ---
-title: Portfolio
+title: NLP
 layout: collection
-permalink: /portfolio/
-collection: portfolio
+permalink: /NLP/
+collection: NLP
 entries_layout: grid
 classes: wide
 ---
