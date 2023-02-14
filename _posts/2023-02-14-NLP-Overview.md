@@ -1,10 +1,7 @@
 ---
 title: "NLP Overview"
 categories:
-  - Overview
-tags:
-  - chat
-  - Post Formats
+  - Summary
 ---
 
 # Overview
