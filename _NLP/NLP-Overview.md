@@ -1,6 +1,7 @@
 ---
 title: "NLP Overview"
 excerpt: "An Overview of Natural Language Processing"
+classes: wide
 number: 1
 ---
 
