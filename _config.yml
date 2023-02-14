@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Matthew Yakubek"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "."
+  bio    : ""
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
