@@ -100,13 +100,14 @@ defaults:
       author_profile: true
   # _NLP
   - scope:
-      path: "_NLP"
+      path: ""
       type: NLP
     values:
       layout: single
       author_profile: false
       share: false
 
+# Collections
 collections:
   NLP:
     output: true
