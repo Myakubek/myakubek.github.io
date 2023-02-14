@@ -3,7 +3,7 @@ title: "Project-1 Data Pre-Processing"
 excerpt: "Data Pre-Processing Project for NLP"
 classes: wide
 number: 2
-date: 2023-02-011T16:20:02-05:00
+date: "02 14 2023"
 toc: true
 toc_label: ""
 ---
