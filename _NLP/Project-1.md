@@ -6,7 +6,7 @@ number: 2
 
 ## File
 
-[Python File](https://github.com/Myakubek/myakubek.github.io/blob/main/Homework1/Homework1_mcy170000.py)
+[Python File](https://github.com/Myakubek/myakubek.github.io/blob/master/Programs/NLP/Project-1/Homework1_mcy170000.py)
 
 ## Overview
 
