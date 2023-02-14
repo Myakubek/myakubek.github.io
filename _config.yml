@@ -108,6 +108,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
 #Hide feed icon
 atom_feed:
   hide: true
