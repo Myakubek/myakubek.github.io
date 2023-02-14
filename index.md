@@ -15,7 +15,7 @@ feature_row:
 #  - image_path: /assets/images/mm-customizable-feature.png
   - alt: "Natural Language Processing"
     title: "Natural Language Processing"
-    excerpt: "Using AI to process text - Currently being filled with projects from UTD's Human Language Technologies course"
+    excerpt: "Using AI to process text"
     url: "/NLP/"
     btn_class: "btn--primary"
     btn_label: "NLP"
