@@ -1,5 +1,6 @@
 ---
 title: "NLP Overview"
+excerpt: "An Overview of Natural Language Processing"
 number: 1
 ---
 
