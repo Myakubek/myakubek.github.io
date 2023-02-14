@@ -94,6 +94,7 @@ defaults:
       type: posts
     values:
       show_date: false
+      read_time: false
       layout: single
       author_profile: true
       read_time: true
