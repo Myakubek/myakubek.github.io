@@ -3,6 +3,7 @@ title: "Project-1 Data Pre-Processing"
 excerpt: "Data Pre-Processing Project for NLP"
 classes: wide
 number: 2
+toc: true
 ---
 
 ## File
