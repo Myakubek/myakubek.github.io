@@ -13,26 +13,26 @@ excerpt: This is a website that highlights some of the more interesting personal
 #  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
 feature_row:
 #  - image_path: /assets/images/mm-customizable-feature.png
-  - alt: "Natural Language Processing"
-    title: "Natural Language Processing"
-    excerpt: "Using AI to process text"
+  - alt: "NLP"
+    title: "NLP"
+    excerpt: "Projects following UTD's Natural Language Processing course"
     url: "/NLP/"
     btn_class: "btn--primary"
-    btn_label: "NLP"
+    btn_label: "View Projects"
 #  - image_path: /assets/images/mm-responsive-feature.png
   - alt: "General Projects"
     title: "General Projects"
     excerpt: "A variety of projects from a variety of different tech-stacks"
     url: "/docs/layouts/"
     btn_class: "btn--primary"
-    btn_label: "Projects"
+    btn_label: "View Projects"
  # - image_path: /assets/images/mm-free-feature.png
   - alt: "Machine Learning"
     title: "Machine Learning"
     excerpt: "Projects utilizing machine learning algorithms to solve problems"
     url: "/docs/license/"
     btn_class: "btn--primary"
-    btn_label: "ML"      
+    btn_label: "View Projects"      
 ---
 
 {% include feature_row %}
