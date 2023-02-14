@@ -3,8 +3,7 @@ title: "NLP Overview"
 categories:
   - Overview
 tags:
-  - chat
-  - Post Formats
+  - NLP
 ---
 
 # Overview
