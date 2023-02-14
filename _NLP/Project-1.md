@@ -1,6 +1,7 @@
 ---
 title: "Project-1 Data Pre-Processing"
-number: 1
+excerpt: "Data Pre-Processing Project for NLP"
+number: 2
 ---
 
 ## File
