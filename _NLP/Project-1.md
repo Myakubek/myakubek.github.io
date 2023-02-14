@@ -5,6 +5,7 @@ classes: wide
 number: 2
 date: 2023-02-011T16:20:02-05:00
 toc: true
+toc_label: ""
 ---
 
 ## File
