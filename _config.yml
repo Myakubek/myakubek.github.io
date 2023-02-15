@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : ""
+  #name   : ""
   avatar : "/assets/images/Matthew Yakubek - Picture.png"
-  bio    : ""
+  #bio    : ""
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
