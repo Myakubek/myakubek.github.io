@@ -8,22 +8,17 @@ toc: true
 toc_label: ""
 ---
 
-### File
+## File
 
 [Python File](https://github.com/Myakubek/myakubek.github.io/blob/master/Programs/NLP/Project-2/Homework2_mcy170000.py)
 
-### How to Run  
-> Python Homework2_mcy170000.py anat19.txt  
-> Replace anat19.txt with your filename  
+## How to Run  
+> Python Homework2_mcy170000.py anat19.txt
+  
+Replace anat19.txt with your filename  
 
-### Requirements
+## Requirements
 [Requirements PDF](https://github.com/Myakubek/myakubek.github.io/blob/master/Documents/Portfolio%20Chapter%205%20Word%20Guess%20Game.pdf)
-
-### How to run  
-
-The program can be run with the following command:
-
-> Python Homework1_mcy170000.py data/data.csv  
 
 ## Code
 
