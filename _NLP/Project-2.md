@@ -17,7 +17,7 @@ toc_label: ""
 > Replace anat19.txt with your filename  
 
 ## Requirements
-[Requirements PDF]()
+[Requirements PDF](https://github.com/Myakubek/myakubek.github.io/blob/master/Documents/Portfolio%20Chapter%205%20Word%20Guess%20Game.pdf)
 
 ### How to run  
 
