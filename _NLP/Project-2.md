@@ -16,7 +16,7 @@ toc_label: ""
 > Python Homework2_mcy170000.py anat19.txt  
 > Replace anat19.txt with your filename  
 
-## Requirements
+### Requirements
 [Requirements PDF](https://github.com/Myakubek/myakubek.github.io/blob/master/Documents/Portfolio%20Chapter%205%20Word%20Guess%20Game.pdf)
 
 ### How to run  
