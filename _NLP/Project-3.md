@@ -1,8 +1,8 @@
 ---
-title: "Project-2 Word Guessing Game"
-excerpt: "Project that uses NLTK POS tags & a terminal-based guessing game"
+title: "Project-3 WordNet"
+excerpt: "Project that goes over wordnet basics and sentiment analysis"
 classes: wide
-number: 3
+number: 4
 last_modified_at: 2023-02-24T16:20:02-05:00
 toc: true
 toc_label: ""
