@@ -10,6 +10,10 @@ toc_label: ""
 
 # Project 6 Report
 
+## Code
+
+[Project](https://github.com/Myakubek/myakubek.github.io/blob/master/Programs/NLP/Project-6/webScraper.py)
+
 ## Top 10 Terms
 
 From the top terms using the term frequency algorithm the most common terms that are relevant to the data being scraped are as follows:
@@ -36,3 +40,6 @@ As shown below the file has the companies names, summary, comments, dates, sourc
 ![Unfiltered](https://github.com/Myakubek/myakubek.github.io/blob/master/Documents/ScraperKnowledgeBase.png)
 
 ![Filtered](https://github.com/Myakubek/myakubek.github.io/blob/master/Documents/ScraperKnowledgeBaseCondensed.png)
+
+## Sample Dialog  
+For usage in a web scraper, the knowledge base is structured around being able to associate certain relations with certain companies specifically regarding the Russian-Ukraine war. A sample dialog could be the user asking the chatbot how a certain company has responded regarding the Russian-Ukraine war or their donations to Ukraine.
