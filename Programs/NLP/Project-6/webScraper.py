@@ -87,7 +87,7 @@ for company in rows:
         aggregateTable.append("None")
 
 '''
-Extract important terms from list of tokenized words
+Extract important terms from list of tokenized words (TF)
 To get most or least important terms can just [:15] or [-15:]
 '''
 def extractImportantTerms(tokens):
@@ -113,22 +113,24 @@ def extractImportantTerms(tokens):
     
     return tfList
 
+
+
 #Call chunk function to split data by company & table
 aggregateTable = chunk_list(aggregateTable)
 
 # Extract text from 15 good URLs and store them as raw text and tokenized by sentence
-paragraphItems = []     #Holds list of text from the saved articles
-cleanedParagraphItems = []  #Holds list of text from the saved articles that has no tabs or newlines
-URLindexes = [1, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 26, 28]
-textIndexes = []
+paragraphItems = []             #Holds list of text from the saved articles
+cleanedParagraphItems = []      #Holds list of text from the saved articles that has no tabs or newlines
+URLindexes = [1, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 18, 19, 21, 22, 23, 24, 26, 28]
 
 for item in URLindexes:
     url = aggregateTable[item][-1]
     name = aggregateTable[item][0]
     if url != "None":
         try:
+            print("Name - ", name, "Index - ", item)
             text = scrapeParagraphs(url)
-            textIndexes.append(item)
+            #textIndexes.append(item)
 
             #Write regular file
             writeToFile('RawText - ' + name + ".txt", text)
@@ -164,22 +166,14 @@ for text in cleanedParagraphItems:
 size = len(aggregateTable)-1
 importanceColumn = [None for x in range(size)]
 
-#print(textIndexes)
-
-for index, value in enumerate(textIndexes):
-    #print(value)                           #Print index of company (1 being first)
-    #print(textIndexes)
-    #print(len(importantTerms))
-    if len(importantTerms) > 1:
-        importanceColumn[value-1] = importantTerms.pop(0)
-    #print(aggregateTable[value][0], '\n') #Print name
-
+for index in URLindexes:
+    importanceColumn[index-1] = importantTerms.pop(0)
 
 #Enter into dataframe and export to CSV
 df = pd.DataFrame(aggregateTable)
 df.columns = ['Company Name', 'Summary', 'Comments', 'Date', 'Source', 'Donations', 'Source URL']
 df = df.drop([0])
-df.loc[:, "Source URL"] = importanceColumn
+df.loc[:, "Words by Importance"] = importanceColumn
 df.to_csv('SqueezingRussiaData.csv', header=True, index=False)
 
 '''
