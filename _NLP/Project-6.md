@@ -31,6 +31,6 @@ I built the knowledge base around being easily importable as a dataframe with ea
 Since there are currently 1,600 companies in the CSV scraping each source URL would've taken an extremely long time so I limited the urls to the top 19 websites that had good usable data.  
 As shown below the file has the companies names, summary, comments, dates, sources, donations, source URLs, and for the 19 sites their most and least important words in a 1x2 list format.  
 
-[Image1](testURL)
+[Unfiltered](https://github.com/Myakubek/myakubek.github.io/blob/master/Documents/ScraperKnowledgeBase.png)
 
-[Image2](testURL)
+[Filtered](https://github.com/Myakubek/myakubek.github.io/blob/master/Documents/ScraperKnowledgeBaseCondensed.png)
