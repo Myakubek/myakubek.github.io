@@ -37,9 +37,7 @@ Since there are currently 1,600 companies in the CSV scraping each source URL wo
 
 As shown below the file has the companies names, summary, comments, dates, sources, donations, source URLs, and for the 19 sites their most and least important words in a 1x2 list format.  
 
-`{% raw %}{{ site.url }}{{ site.baseurl }}/assets/images/ScraperKnowledgeBase.png{% endraw %}`
-
-`{% raw %}{{ site.url }}{{ site.baseurl }}/assets/images/ScraperKnowledgeBaseCondensed.png{% endraw %}`
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/ScraperKnowledgeBase.png)
 
 ## Sample Dialog  
 For usage in a web scraper, the knowledge base is structured around being able to associate certain relations with certain companies specifically regarding the Russian-Ukraine war. A sample dialog could be the user asking the chatbot how a certain company has responded regarding the Russian-Ukraine war or their donations to Ukraine.
