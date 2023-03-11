@@ -37,16 +37,12 @@ Since there are currently 1,600 companies in the CSV scraping each source URL wo
 
 As shown below the file has the companies names, summary, comments, dates, sources, donations, source URLs, and for the 19 sites their most and least important words in a 1x2 list format.  
 
-```yaml
-gallery:
-  - url: /assets/images/ScraperKnowledgeBase.png
-    image_path: /assets/images/ScraperKnowledgeBase.png
-    alt: "Unfiltered Knowledge Base"
-    title: "Unfiltered Knowledge Base"
-  - url: /assets/images/ScraperKnowledgeBaseCondensed.png
-    image_path: /assets/images/ScraperKnowledgeBaseCondensed.png
-    alt: "Filtered Knowledge Base"
-    title: "Filtered Knowledge Base"
+```markdown
+{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/ScraperKnowledgeBase.png){% endraw %}
+```
+
+```markdown
+{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/ScraperKnowledgeBaseCondensed.png){% endraw %}
 ```
 
 ## Sample Dialog  
