@@ -39,5 +39,8 @@ As shown below the file has the companies names, summary, comments, dates, sourc
 
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/ScraperKnowledgeBase.png)
 
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/ScraperKnowledgeBaseCondensed.png)
+
+
 ## Sample Dialog  
 For usage in a web scraper, the knowledge base is structured around being able to associate certain relations with certain companies specifically regarding the Russian-Ukraine war. A sample dialog could be the user asking the chatbot how a certain company has responded regarding the Russian-Ukraine war or their donations to Ukraine.
